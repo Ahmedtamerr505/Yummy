@@ -46,3 +46,6 @@ i {
     background-color: #0D0D0D;
     display: flex;
 }
+.search::placeholder {
+  color: rgb(211, 242, 167) !important; 
+}

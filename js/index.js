@@ -247,10 +247,10 @@ function showSearchInputs() {
     searchContainer.innerHTML = `
     <div class="row py-4 gy-2 ">
         <div class="col-md-6 ">
-            <input onkeyup="searchByName(this.value)" class="form-control bg-transparent text-white" type="text" placeholder="Search By Name">
+            <input onkeyup="searchByName(this.value)" class="search form-control bg-transparent text-white" type="text" placeholder="Search By Name">
         </div>
         <div class="col-md-6">
-            <input onkeyup="searchByLetter(this.value)" maxlength="1" class="form-control bg-transparent text-white" type="text" placeholder="Search By First Letter">
+            <input onkeyup="searchByLetter(this.value)" maxlength="1" class="search form-control bg-transparent text-white" type="text" placeholder="Search By First Letter">
         </div>
     </div>`
 

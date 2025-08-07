@@ -65,7 +65,7 @@ async function getHomeMeals(){
     let response = await fetch(`https://www.themealdb.com/api/json/v1/1/search.php?s=`)
     response = await response.json()
 
-    displayMeals(response.meals.slice(0, 20))
+    displayMeals(response.meals.slice(14, 34))
 }
 
 async function getCategories() {
